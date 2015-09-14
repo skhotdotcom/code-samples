@@ -1,0 +1,25 @@
+<html xmlns="http://w3.org/1999/xhtml">
+<head>
+<title>Dice</title>
+<script type="text/javascript">
+<!--
+
+	var face1;
+	var face2;
+	
+face1 = Math.floor( 1 + Math.random() * 6 );
+	face2 = Math.floor( 1 + Math.random() * 6 );
+		
+	document.write( "<img src=\"dice/" + face1 + ".png\" alt=\"" + face1 + "\"/>");
+	document.write( "<img src=\"dice/" + face2 + ".png\" alt=\"" + face2 + "\"/>");
+
+	// -->
+
+</script>
+</head>
+<body>
+<div style="margin: 0 auto;">
+<form action="dice.html" method="post">
+<input type="submit" value="Roll Again!"></form></div>
+</body>
+</html>
